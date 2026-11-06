@@ -13,6 +13,7 @@ Each one is an API: send URLs, get JSON back. You only pay for what you process,
 | 📸 [Website Screenshot API](https://apify.com/prometheus-maker/website-screenshot) | Full-page, first-screen, mobile or element screenshots as PNG, JPEG or PDF, cookie banners hidden | $0.005 per full page, $0.003 per first screen |
 | 🔁 [HTTP Request Runner](https://apify.com/prometheus-maker/http-request-runner) | Send many API calls (GET/POST/any method) with retries and rate limits; status, headers and parsed JSON back | $0.001 per request |
 | 📦 [Bulk File Downloader](https://apify.com/prometheus-maker/bulk-file-downloader) | Download files from URL lists or every file linked on a page; images, PDFs, media; optional ZIP | $0.0015 per file |
+| 🎙️ [Audio & Video Transcriber](https://apify.com/prometheus-maker/audio-video-transcriber) | Speech to text with Whisper models: files, podcast feeds; text, timestamps, SRT | from $0.003 per audio minute |
 
 Full prices, including per-page rates and discounts for paid Apify plans, are on each Store page.
 
