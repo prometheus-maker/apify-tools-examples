@@ -1,6 +1,6 @@
 # Apify tools: PDF to Markdown, OCR, Website to Markdown crawler, SEO audit, Tech Stack
 
-Working examples for five pay-per-use tools on the [Apify Store](https://apify.com/store).
+Working examples for my pay-per-use tools on the [Apify Store](https://apify.com/store).
 Each one is an API: send URLs, get JSON back. You only pay for what you process, and there's no subscription.
 
 | Tool | What it does | Price |
