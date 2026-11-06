@@ -11,6 +11,7 @@ Each one is an API: send URLs, get JSON back. You only pay for what you process,
 | 🔎 [SEO Audit & Broken Link Checker](https://apify.com/prometheus-maker/website-seo-audit) | Audit every page of a site (titles, meta, headings, canonical, schema) and check every link and image for 404s. 0-100 score per page | $0.004 per page |
 | 🌐 [Website Tech Stack Detector](https://apify.com/prometheus-maker/website-tech-stack-detector) | What a website is built with: CMS, frameworks, analytics, CDN, hosting, email provider. 7,000+ technologies (BuiltWith / Wappalyzer alternative) | $0.002 per website |
 | 📸 [Website Screenshot API](https://apify.com/prometheus-maker/website-screenshot) | Full-page, first-screen, mobile or element screenshots as PNG, JPEG or PDF, cookie banners hidden | $0.005 per full page, $0.003 per first screen |
+| 🔁 [HTTP Request Runner](https://apify.com/prometheus-maker/http-request-runner) | Send many API calls (GET/POST/any method) with retries and rate limits; status, headers and parsed JSON back | $0.001 per request |
 
 Full prices, including per-page rates and discounts for paid Apify plans, are on each Store page.
 
