@@ -6,7 +6,7 @@ Each one is an API: send URLs, get JSON back. You only pay for what you process,
 | Tool | What it does | Price |
 |---|---|---|
 | 📄 [PDF & Document to Markdown](https://apify.com/prometheus-maker/pdf-document-to-markdown) | PDF, Word, PowerPoint, Excel, HTML, EPUB → clean Markdown for LLM / RAG. Tables, two-column papers, OCR for scans, chunking | $0.002 per document + $0.0002 per page |
-| 🖼️ [Image & Scanned PDF to Text OCR](https://apify.com/prometheus-maker/image-to-text-ocr) | Text from photos, screenshots and scans in 41 languages, with line positions and confidence | $0.003 per image or page |
+| 🖼️ [Image & Scanned PDF to Text OCR](https://apify.com/prometheus-maker/image-to-text-ocr) | Text from photos, screenshots and scans in 41 languages, with line positions and confidence | $0.004 per image or page |
 | 🕸️ [Website to Markdown Crawler](https://apify.com/prometheus-maker/website-to-markdown-crawler) | Crawl a site into clean Markdown for LLM / RAG: main content only, linked PDF/Word/Excel files converted too, optional chunks | $0.0015 per page |
 | 🔎 [SEO Audit & Broken Link Checker](https://apify.com/prometheus-maker/website-seo-audit) | Audit every page of a site (titles, meta, headings, canonical, schema) and check every link and image for 404s. 0-100 score per page | $0.004 per page |
 | 🌐 [Website Tech Stack Detector](https://apify.com/prometheus-maker/website-tech-stack-detector) | What a website is built with: CMS, frameworks, analytics, CDN, hosting, email provider. 7,000+ technologies (BuiltWith / Wappalyzer alternative) | $0.002 per website |
