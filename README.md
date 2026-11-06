@@ -10,6 +10,7 @@ Each one is an API: send URLs, get JSON back. You only pay for what you process,
 | 🕸️ [Website to Markdown Crawler](https://apify.com/prometheus-maker/website-to-markdown-crawler) | Crawl a site into clean Markdown for LLM / RAG: main content only, linked PDF/Word/Excel files converted too, optional chunks | $0.0015 per page |
 | 🔎 [SEO Audit & Broken Link Checker](https://apify.com/prometheus-maker/website-seo-audit) | Audit every page of a site (titles, meta, headings, canonical, schema) and check every link and image for 404s. 0-100 score per page | $0.004 per page |
 | 🌐 [Website Tech Stack Detector](https://apify.com/prometheus-maker/website-tech-stack-detector) | What a website is built with: CMS, frameworks, analytics, CDN, hosting, email provider. 7,000+ technologies (BuiltWith / Wappalyzer alternative) | $0.002 per website |
+| 📸 [Website Screenshot API](https://apify.com/prometheus-maker/website-screenshot) | Full-page, first-screen, mobile or element screenshots as PNG, JPEG or PDF, cookie banners hidden | $0.005 per full page, $0.003 per first screen |
 
 Full prices, including per-page rates and discounts for paid Apify plans, are on each Store page.
 
