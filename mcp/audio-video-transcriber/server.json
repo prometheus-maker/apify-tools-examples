@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.prometheus-maker/audio-video-transcriber",
+  "title": "Audio & Video Transcriber (Whisper)",
+  "description": "Speech to text from audio/video files and podcast feeds: text, timestamps and SRT subtitles.",
+  "repository": {
+    "url": "https://github.com/prometheus-maker/apify-tools-examples",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/prometheus-maker/audio-video-transcriber",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=prometheus-maker/audio-video-transcriber",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Apify API token, as 'Bearer <token>' (free account: console.apify.com/settings/integrations). Pay per use.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

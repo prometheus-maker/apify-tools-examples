@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.prometheus-maker/bulk-file-downloader",
+  "title": "Bulk File Downloader",
+  "description": "Download files from URL lists or every file linked on a page (images, PDFs, media); ZIP.",
+  "repository": {
+    "url": "https://github.com/prometheus-maker/apify-tools-examples",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/prometheus-maker/bulk-file-downloader",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=prometheus-maker/bulk-file-downloader",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Apify API token, as 'Bearer <token>' (free account: console.apify.com/settings/integrations). Pay per use.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

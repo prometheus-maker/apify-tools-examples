@@ -29,6 +29,25 @@ curl -X POST "https://api.apify.com/v2/acts/prometheus-maker~website-tech-stack-
 
 The same endpoint works for the other tools: replace the tool name and the input.
 
+## Use them from Claude, Cursor or any MCP client
+
+Every tool is also an MCP server, hosted by Apify (streamable HTTP). Add one to your client with your Apify token:
+
+```json
+{
+  "mcpServers": {
+    "pdf-to-markdown": {
+      "url": "https://mcp.apify.com/?tools=prometheus-maker/pdf-document-to-markdown",
+      "headers": { "Authorization": "Bearer YOUR_APIFY_TOKEN" }
+    }
+  }
+}
+```
+
+Swap the part after `tools=` for any tool in the table (`prometheus-maker/website-to-markdown-crawler`, ...), or list
+several separated by commas. The same entries are in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.prometheus-maker)
+under `io.github.prometheus-maker/*` (files in [`mcp/`](mcp)). You pay per use, as with the API.
+
 ## Python
 
 ```bash

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.prometheus-maker/pdf-to-markdown",
+  "title": "PDF & Document to Markdown",
+  "description": "PDF, Word, PowerPoint, Excel, HTML, EPUB to clean Markdown for LLMs/RAG; OCR for scans; chunks.",
+  "repository": {
+    "url": "https://github.com/prometheus-maker/apify-tools-examples",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/prometheus-maker/pdf-document-to-markdown",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=prometheus-maker/pdf-document-to-markdown",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Apify API token, as 'Bearer <token>' (free account: console.apify.com/settings/integrations). Pay per use.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

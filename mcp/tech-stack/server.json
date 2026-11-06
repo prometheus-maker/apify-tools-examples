@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.prometheus-maker/tech-stack",
+  "title": "Website Tech Stack Detector",
+  "description": "What a website is built with: CMS, frameworks, analytics, CDN, hosting. 7,000+ technologies.",
+  "repository": {
+    "url": "https://github.com/prometheus-maker/apify-tools-examples",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/prometheus-maker/website-tech-stack-detector",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=prometheus-maker/website-tech-stack-detector",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Apify API token, as 'Bearer <token>' (free account: console.apify.com/settings/integrations). Pay per use.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
