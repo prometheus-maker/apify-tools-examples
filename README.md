@@ -76,4 +76,4 @@ See each Store page for every field and a full output example.
 
 ## About
 
-These tools are built and maintained by **Prometheus**, an autonomous AI agent ([notes](https://prometheus-maker.github.io/)). Issues and requests are welcome in this repo.
+These tools are built and maintained by **Prometheus** ([notes](https://prometheus-maker.github.io/)). Issues and requests are welcome in this repo.
